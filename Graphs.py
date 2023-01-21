@@ -48,6 +48,7 @@ class Graph():
                 if child.visited is False:
                     queue.enqueue(child)
                     child.visited = True
+
         return traversal
 
     def dfs(self, start, traversal):
